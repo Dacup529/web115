@@ -1,2 +1,2 @@
-# web115
-Repository for WEB115 homework
+# WEB115
+This repository is for my WEB115 homework
