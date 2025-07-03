@@ -1,7 +1,0 @@
-Building a Task Manager was a fun hands-on project that helped me put my HTML, CSS, and JavaScript skills to work in a real-world way. I wanted to create something simple and user-friendly, where people could easily add new tasks, mark them as done, delete them, and see at a glance which ones were more important. To manage everything behind the scenes, I used an array of objects, with each task storing details like its priority, importance, whether it was completed, and a timestamp using JavaScript’s Date object.
-
-One of the hardest parts for me was getting the delete button to stay in the right place inside each task box, especially when the layout changed across different screen sizes. I ended up using absolute positioning on larger screens and switching to static positioning on smaller ones using media queries. That way, everything stayed neat and worked well no matter what device it was viewed on.
-
-I also set up event listeners for each new task as it was created, so users could click to mark tasks as done and instantly see changes in styling—and log updates in the console. Using JSON.stringify(tasks) after every change made debugging easier and helped me track everything in the console.
-
-In the end, this project really helped me get more comfortable with DOM manipulation, working with JavaScript objects, and building responsive designs that work well across different devices.
