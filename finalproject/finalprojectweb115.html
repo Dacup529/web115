@@ -1,0 +1,34 @@
+<!--Reese Parker 2118500-->
+<!--WEB 115 0001-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Task Flow Manager</title>
+        <!--Link to external CSS file-->
+        <link rel="stylesheet" href="finalprojectweb115.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Task Manager</h1>
+
+            <!--Task form for user input-->
+            <form id="taskForm">
+                <input type="text" id="taskName" placeholder="Enter task name" required />
+                <select id="taskPriority">
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+                <label><input type="checkbox" id="taskImportant" />Important</label>
+                <label><input type="checkbox" id="taskCompleted" /> Completed</label>
+                <button type="submit">Add Task</button>
+            </form>
+            <!--Tasks will be shown here-->
+            <div id="taskmanager"></div>
+        </div>
+        <!--Link to external JavaScript File-->
+        <script src="finalprojectweb115.js"></script>
+    </body>
+</html>
